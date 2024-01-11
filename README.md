@@ -43,10 +43,12 @@ Then simply run it:
 
 ```bash
 # For Local LLM running on localhost:5000:
-docker run --gpus all --net host llm-companion
+docker run --gpus all --net host lxelxe/llm-companion
 
 # For OpenAI:
-docker run -e OPENAI_API_KEY="******" -e OAI_HOST="https://api.openai.com" --gpus all --net host llm-companion
+docker run --gpus all --net host \
+    -e OPENAI_API_KEY="******" \
+    -e OAI_HOST="https://api.openai.com" lxelxe/llm-companion 
 ```
 
 ### Manual Install
