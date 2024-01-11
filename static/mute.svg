@@ -1,0 +1,11 @@
+<svg id='No_Audio_24' width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'>
+    <rect width='24' height='24' stroke='none' fill='#000000' opacity='0' />
+    <g transform="matrix(0.91 0 0 0.91 12 12)">
+        <path
+            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"
+            transform=" translate(-12, -12)"
+            d="M 3.7070312 2.2929688 L 2.2929688 3.7070312 L 6.2929688 7.7070312 L 5 9 L 1 9 L 1 15 L 5 15 L 11 21 L 11 12.414062 L 20.292969 21.707031 L 21.707031 20.292969 L 3.7070312 2.2929688 z M 11 3 L 9.1191406 4.8808594 L 11 6.7617188 L 11 3 z M 19.484375 3.515625 L 18.070312 4.9296875 C 19.959313 6.8176875 21 9.329 21 12 C 21 13.381 20.7175 14.716266 20.1875 15.947266 L 21.6875 17.449219 C 22.5405 15.782219 23 13.927 23 12 C 23 8.795 21.751375 5.781625 19.484375 3.515625 z M 16.65625 6.34375 L 15.242188 7.7578125 C 16.588187 9.1038125 17.134641 10.932406 16.931641 12.691406 L 18.628906 14.390625 C 19.484906 11.640625 18.83025 8.51775 16.65625 6.34375 z"
+            stroke-linecap="round" />
+    </g>
+</svg>

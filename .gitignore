@@ -1,0 +1,4 @@
+.conda-env
+cert.pem
+key.pem
+audio.wav
