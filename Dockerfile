@@ -12,7 +12,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN python3 -m pip install -r requirements.txt
 
-COPY server.py static entrypoint.sh ./
+COPY server.py entrypoint.sh ./
+COPY static ./static
 
 RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -subj "/CN=localhost"
 
