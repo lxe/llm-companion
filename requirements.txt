@@ -1,5 +1,5 @@
 Flask
 requests
 argparse
-whisper
+openai-whisper
 git+https://github.com/lxe/tts-server.git
