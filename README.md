@@ -21,7 +21,20 @@ Seriously, the client-side code is an absolute mess.
 - Compatibility with both OpenAI and local OpenAI-compatible APIs, such as [Oobabooga](https://github.com/oobabooga/text-generation-webui), [vllm](https://github.com/vllm-project/vllm), [llama.cpp](https://github.com/ggerganov/llama.cpp), and more.
 - It's a web app, so you don't have to install an app, which is nice, I think
 
-## How To Run:
+## How To Install and Run:
+
+I've only tested it with NVIDIA CUDA, so you'll have to have an NVIDIA card with enough VRAM and appropriate drivers.
+
+### Docker
+
+You can simply build and run the Docker image:
+
+```bash
+sudo apt install nvidia-container-toolkit
+docker run --gpus all --net host lxelxe/llm-companion
+```
+
+### Manual Install
 
 To run the llm-companion, you'll need to enable HTTPS for microphone access. Generate a localhost self-signed certificate and key like this:
 
@@ -73,7 +86,9 @@ sudo setcap 'cap_net_bind_service=+ep' $(which python)
 
 Alternatively, you can use sudo or choose a different port.
 
-Finally, navigate to [https://localhost](https://localhost) to access the llm-companion.
+### Usage
+
+Navigate to [https://localhost](https://localhost) to access the llm-companion.
 
 You can also use localtunnel to create a remote URL:
 
