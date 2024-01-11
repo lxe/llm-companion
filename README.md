@@ -31,11 +31,22 @@ I've only tested it with NVIDIA CUDA, so you'll have to have an NVIDIA card with
 
 ### Docker
 
-You can simply build and run the Docker image:
+You'll need `nvidia-container-toolkit` to enable GPU access:
 
 ```bash
+# Required prerequisite for GPU access
 sudo apt install nvidia-container-toolkit
-docker run --gpus all --net host lxelxe/llm-companion
+systemctl restart docker
+```
+
+Then simply run it:
+
+```bash
+# For Local LLM running on localhost:5000:
+docker run --gpus all --net host llm-companion
+
+# For OpenAI:
+docker run -e OPENAI_API_KEY="******" -e OAI_HOST="https://api.openai.com" --gpus all --net host llm-companion
 ```
 
 ### Manual Install
