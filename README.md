@@ -4,7 +4,7 @@
 
 <img align="right" src="./llm-companion.gif" width="300" />
 
-*llm-companion* is a web app designed to facilitate an audio "push-to-talk" style chat interface with OpenAI-like APIs. It boasts exceptional speed, utilizing Whisper for transcription, [StyleTTS](https://github.com/yl4579/StyleTTS) for high-fidelity, low-latency text-to-speech (TTS), and is compatible with any OpenAI-like language model (LLM) backend. 
+*llm-companion* is a web app designed to facilitate an audio "push-to-talk" style chat interface with OpenAI-like APIs. It boasts exceptional speed, utilizing Whisper for transcription, [StyleTTS2](https://github.com/yl4579/StyleTTS2) for high-fidelity, low-latency text-to-speech (TTS), and is compatible with any OpenAI-like language model (LLM) backend. 
 
 LLM responses are immediately streamed to the TTS, which then responds back in audio chunks, resulting in an extremely limited delay.
 
